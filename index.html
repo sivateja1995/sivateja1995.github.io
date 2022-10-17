@@ -1,43 +1,414 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Profile</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=\, initial-scale=1.0">
-  <title>Personal profile</title>
-  <header class="header">
-    <div class="toolbar">
-      <ul>
-        <li class="navlink">
-          <a href="#home">home</a>
-        </li>
-        <li class="navlink"></li>
-        <li class="navlink"></li>
-        <li class="navlink"></li>
-      </ul>
+  <body>
+    <!-- importing the style and script  -->
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js"></script>
+
+    <div class="container">
+      <!-- start of toolbar  -->
+      <div class="toolbar">
+        <!-- home icon  -->
+        <a href="#home-pg">
+          <div class="icon">
+            <img src="./assests/img/home.png" alt="home" title="home" />
+          </div>
+        </a>
+        <!-- end of home icon  -->
+
+        <!-- Personal information icon  -->
+        <a href="#personal-pg">
+          <div class="icon">
+            <img
+              src="./assests/img/person.png"
+              alt="personal-information"
+              title="personal Information"
+            />
+          </div>
+        </a>
+        <!-- end of the Personal information icon  -->
+
+        <!-- work experience  -->
+        <a href="#workhistory-pg">
+          <div class="icon">
+            <img
+              src="./assests/img/workhistory.png"
+              alt="Work History"
+              title="Work History"
+            />
+          </div>
+        </a>
+        <!-- end of work experience -->
+
+        <!-- contact  -->
+        <div class="icon">
+          <img
+            src="./assests/img/contact-page.png"
+            alt="contact"
+            title="contact"
+          />
+        </div>
+        <!-- end of the contact  -->
+
+        <!-- Information -->
+        <!-- <div class="icon">
+          <img
+            src="./assests/img/information.png"
+            alt="information"
+            title="Information"
+          />
+        </div> -->
+        <!-- end of Information -->
+      </div>
+      <!-- end of the toolbar  -->
+
+      <!-- home page  -->
+      <div class="home-page" id="home-pg">
+        <div class="home-card">
+          <h1 class="hometext">
+            Are you looking for someone who can build your web Application in
+            Hyderabad !?? Checkout Here.
+          </h1>
+        </div>
+        <div class="home-img">
+          <img
+            src="./assests/img/home-boy.png"
+            alt="boy"
+            title="boy"
+            class="boy"
+          />
+        </div>
+      </div>
+      <!-- end of the home page  -->
+
+      <!-- personal profile page  -->
+      <div class="personal-page" id="personal-pg">
+        <div class="block-1 row1">
+          <!-- image  -->
+          <div class="personal-img">
+            <img
+              src="./assests/img/K3B.png"
+              alt="personal-image"
+              class="sys-img"
+            />
+          </div>
+          <!-- end of image  -->
+          <!-- info  -->
+          <div class="personal-info">
+            <p>Hi I am siva Teja,</p>
+            <ul>
+              <li>
+                <p>
+                  I am having 4 years of IT experience as a MEARN Stack
+                  Developer.
+                </p>
+              </li>
+              <li>
+                <p>Having skill set in following</p>
+                <p align="left">
+                  <a href="https://angular.io" target="_blank" rel="noreferrer">
+                    <img
+                      src="https://angular.io/assets/images/logos/angular/angular.svg"
+                      alt="angular"
+                      width="40"
+                      height="40"
+                    />
+                  </a>
+                  <a
+                    href="https://cordova.apache.org/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      src="https://www.vectorlogo.zone/logos/apache_cordova/apache_cordova-icon.svg"
+                      alt="apachecordova"
+                      width="40"
+                      height="40"
+                    />
+                  </a>
+                  <a
+                    href="https://www.arduino.cc/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg"
+                      alt="arduino"
+                      width="40"
+                      height="40"
+                    />
+                  </a>
+                  <a
+                    href="https://aws.amazon.com"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      src="https://img.icons8.com/color/48/000000/amazon-web-services.png"
+                    />
+                  </a>
+                  <a
+                    href="https://azure.microsoft.com/en-in/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg"
+                      alt="azure"
+                      width="40"
+                      height="40"
+                    />
+                  </a>
+                  <a
+                    href="https://babeljs.io/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      src="https://www.vectorlogo.zone/logos/babeljs/babeljs-icon.svg"
+                      alt="babel"
+                      width="40"
+                      height="40"
+                    />
+                  </a>
+                  <a
+                    href="https://getbootstrap.com"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      src="https://img.icons8.com/color/48/000000/bootstrap.png"
+                    />
+                  </a>
+                  <a
+                    href="https://www.cprogramming.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      src="https://img.icons8.com/color/48/000000/c-programming.png"
+                    />
+                  </a>
+                  <a
+                    href="https://www.w3schools.com/cpp/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"
+                    />
+                  </a>
+                  <a
+                    href="https://www.w3schools.com/css/"
+                    target="_blank"
+                    rel="noreferrer"
+                    ><img src="https://img.icons8.com/color/48/000000/css3.png"
+                  /></a>
+                  <a
+                    href="https://www.djangoproject.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                    ><img
+                      src="https://img.icons8.com/ios-filled/50/000000/django.png"
+                    />
+                  </a>
+                  <a
+                    href="https://expressjs.com"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      src="https://img.icons8.com/color/48/000000/express-js.png"
+                    />
+                  </a>
+                  <a
+                    href="https://www.figma.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg"
+                      alt="figma"
+                      width="40"
+                      height="40"
+                    />
+                  </a>
+                  <a
+                    href="https://git-scm.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
+                      alt="git"
+                      width="40"
+                      height="40"
+                    />
+                  </a>
+                  <a
+                    href="https://www.w3.org/html/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      src="https://img.icons8.com/color/48/000000/html-5--v1.png"
+                    />
+                  </a>
+                  <a
+                    href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      src="https://img.icons8.com/color/48/000000/javascript--v1.png"
+                    />
+                  </a>
+                  <a
+                    href="https://www.linux.org/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      src="https://img.icons8.com/color/48/000000/linux--v1.png"
+                    />
+                  </a>
+                  <a
+                    href="https://www.mongodb.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      src="https://img.icons8.com/color/48/000000/mongodb.png"
+                    />
+                  </a>
+                  <a
+                    href="https://www.mysql.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      src="https://img.icons8.com/external-those-icons-fill-those-icons/48/000000/external-MySQL-programming-and-development-those-icons-fill-those-icons.png"
+                    />
+                  </a>
+                  <a href="https://nodejs.org" target="_blank" rel="noreferrer">
+                    <img
+                      src="https://img.icons8.com/color/48/000000/nodejs.png"
+                    />
+                  </a>
+                  <a
+                    href="https://www.oracle.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      src="https://img.icons8.com/color/48/000000/express.png"
+                    />
+                  </a>
+                  <a
+                    href="https://postman.com"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"
+                      alt="postman"
+                      width="40"
+                      height="40"
+                    />
+                  </a>
+                  <a
+                    href="https://www.python.org"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      src="https://img.icons8.com/color/48/000000/python--v1.png"
+                    />
+                  </a>
+                  <a
+                    href="https://reactjs.org/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      src="https://img.icons8.com/office/40/000000/react.png"
+                    />
+                  </a>
+                  <a
+                    href="https://redux.js.org"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src="https://img.icons8.com/ios/50/000000/redux.png" />
+                  </a>
+                  <a
+                    href="https://sass-lang.com"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      src="https://img.icons8.com/color/48/000000/sass.png"
+                    />
+                  </a>
+                  <a
+                    href="https://www.typescriptlang.org/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      src="https://img.icons8.com/fluency/48/000000/typescript--v1.png"
+                    />
+                  </a>
+                </p>
+              </li>
+              <li>
+                <p>
+                  Experience in Developing User Interface (UI) Rich Web
+                  Applications, and Web Service Applications using Front
+                  End/User Interface (UI) Technologies like JavaScript, Type
+                  Script, Angular9, Bootstrap, CSS Frameworks, Material
+                  Components & Apache Cordova.
+                </p>
+              </li>
+            </ul>
+          </div>
+          <!-- end of info  -->
+        </div>
+      </div>
+      <!-- end of personal profile page  -->
+
+      <!-- workhistory  -->
+      <div class="workhistory-page" id="workhistory-pg">
+        <div class="workhis-title">
+          <h1>Work History</h1>
+        </div>
+
+        <div class="workhis-container">
+          <div class="box">
+            <h1>Prospecta Technologies</h1>
+            <h3>2018-2021</h3>
+            <a href="https://prospectatech.com/">https://prospectatech.com</a>
+          </div>
+          <div class="box">
+            <h1>Blu Cocoon Digital</h1>
+            <h3>2020-2021</h3>
+            <a href="https://blucocoondigital.com/">https://blucocoondigital.com</a>
+          </div>
+          <div class="box">
+            <h1>Inncrewin/Atmosol</h1>
+            <h3>2021-present</h3>
+            <a href="https://atmosol.com/">https://atmosol.com</a>
+          </div>
+        </div>
+      </div>
+      <!-- end of the workhistory -->
     </div>
-  </header>
-</head>
-
-<body class="body">
-  <link rel="stylesheet" href="./style.css">
-  <script src="./script.js"></script>
-  <!-- home  -->
-  <div class="demo-wrap" id="home">
-    <img class="demo-bg" src="./assests/img/hyberdad.jpg" alt="">
-    <div class="demo-content">
-      <h2 class="text1">Hello World! ,</h2>
-      <h2 class="text2">This is Siva Teja working as full stack web developer from hyderabad. Kindly go through my profile</h2>
-    </div>
-  </div>
-  <!-- end of the home  -->
-
-</body>
-<footer class="footer">
-  <div>
-    <p class="ft-text"> All Rights Recived</p>
-  </div>
-</footer>
-
+  </body>
 </html>
