@@ -1,20 +1,21 @@
 /* defining the colors  */
 :root {
+  /* background-color */
   --bg-clr: #ede7f6;
   --shade-clr: #b6b8c3;
-  --toolbar-clr: #EDE7F2;
-  --text-color: #ffc4ff;
-  --text-shadow: #9c64a6;
+  /* toolbar color  */
+  --toolbar-clr: #ede7f2;
   --toolbar-shade-clr: #bbb5c3;
+  /* text color  */
+  --text-color: #78909c;
+  --text-shadow: #a7c0cd;
 }
-
 
 body {
   background-color: var(--bg-clr);
   width: auto;
-  height: 100vh;
-  overflow-y: scroll;
-  overflow-x: hidden;
+  height: 90%;
+  overflow: auto;
   display: flex;
   flex-flow: column;
   justify-content: flex-start;
@@ -29,23 +30,22 @@ body {
   flex-flow: column;
   align-items: center;
   justify-content: flex-start;
-  padding: 3rem 0rem 3rem 0rem;
+  padding: 1rem 0rem 1rem 0rem;
 }
-
 
 /* class for the toolbar  */
 .toolbar {
   background-color: var(--toolbar-clr);
-  height: 12% !important;
+  height: 10% !important;
   width: 60%;
   border-radius: 14px;
   box-shadow: 3px 3px 3px 2px var(--toolbar-shade-clr);
+  position: fixed;
   display: flex;
   flex-flow: row;
   justify-content: space-evenly;
   align-items: center;
 }
-
 
 /* class icon  */
 .icon {
@@ -56,52 +56,79 @@ body {
   width: auto;
 }
 
-
-
 /* class for the home page */
-.home-page{
+.home-page {
   display: flex;
   flex-flow: row;
-  justify-content: flex-start;
-  align-items:center;
+  justify-content: center;
+  align-items: center;
   height: 100%;
   width: 100%;
-
 }
 
-.home-card{
-  background-color:var(--toolbar-clr);
+.home-card {
+  background-color: var(--toolbar-clr);
   box-shadow: 3px 3px 3px 2px var(--toolbar-shade-clr);
-  margin-top: 5%;
-  border-radius:14px;
-  margin: 1rem;
-  border-radius:14px;
+  border-radius: 14px;
   width: 50%;
-  height: 80%;
+  height: 20%;
   display: flex;
   flex-flow: column;
   justify-content: center;
-  align-items:center;
+  align-items: center;
   text-align: center;
 }
 
-
-.home-img{
-  width: 50%;
-  height: 80%;
+.home-img {
+  width: 27%;
+  height: 90%;
   margin: 1rem;
-  
 }
 
-
-.boy{
-  width:max-content;
-  height: 100%; 
+.boy {
+  width: max-content;
+  height: 85%;
+  padding: 4rem 0rem;
 }
 
-.hometext{
+.hometext {
   font-family: ui-sans-serif;
   text-shadow: 4px 1px 1px var(--text-shadow);
   margin: 1rem;
   color: var(--text-color);
+}
+
+.personal-page {
+  background-color: var(--toolbar-clr);
+  box-shadow: 3px 3px 3px 2px var(--toolbar-shade-clr);
+  border-radius: 14px;
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: start;
+  align-items: stretch;
+  text-align: start;
+  padding: 3rem;
+}
+
+.block-1 {
+  display: flex;
+  flex: 1 1 100%;
+  width: 100%;
+  height: 50%;
+}
+
+.block-2 {
+  display: flex;
+  flex: 1 1 100%;
+  width: 100%;
+  height: 50%;
+}
+
+.row1{
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  align-items: stretch;
 }
