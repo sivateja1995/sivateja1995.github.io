@@ -2,7 +2,9 @@
 :root {
   --bg-clr: #ede7f6;
   --shade-clr: #b6b8c3;
-  --toolbar-clr: #ede7f6;
+  --toolbar-clr: #EDE7F2;
+  --text-color: #ffc4ff;
+  --text-shadow: #9c64a6;
   --toolbar-shade-clr: #bbb5c3;
 }
 
@@ -61,37 +63,45 @@ body {
   display: flex;
   flex-flow: row;
   justify-content: flex-start;
-  align-items:stretch;
-  height: 70%;
-  width: 80%;
+  align-items:center;
+  height: 100%;
+  width: 100%;
+
+}
+
+.home-card{
   background-color:var(--toolbar-clr);
   box-shadow: 3px 3px 3px 2px var(--toolbar-shade-clr);
   margin-top: 5%;
   border-radius:14px;
-}
-
-.home-card{
-  backdrop-filter: blur(25px) saturate(109%);
-  -webkit-backdrop-filter: blur(25px) saturate(109%);
-  background-color: #c5cae9;
-  border-radius: 12px;
-  border: 1px solid #9499b7; 
   margin: 1rem;
   border-radius:14px;
   width: 50%;
   height: 80%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items:center;
+  text-align: center;
 }
 
 
 .home-img{
   width: 50%;
-  height: 50%;
+  height: 80%;
+  margin: 1rem;
+  
 }
 
 
 .boy{
   width:max-content;
-  height: 100%;
-  background-color:var(--toolbar-clr);
-  color:var(var(--toolbar-clr));
+  height: 100%; 
+}
+
+.hometext{
+  font-family: ui-sans-serif;
+  text-shadow: 4px 1px 1px var(--text-shadow);
+  margin: 1rem;
+  color: var(--text-color);
 }
