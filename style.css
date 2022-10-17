@@ -87,13 +87,13 @@ body {
 
 .boy {
   width: max-content;
-  height: 85%;
-  padding: 4rem 0rem;
+  height: 70%;
+  padding: 5rem 0rem;
 }
 
 .hometext {
   font-family: ui-sans-serif;
-  text-shadow: 4px 1px 1px var(--text-shadow);
+  text-shadow: 3px 2px 3px var(--text-shadow);
   margin: 1rem;
   color: var(--text-color);
 }
@@ -102,17 +102,18 @@ body {
   background-color: var(--toolbar-clr);
   box-shadow: 3px 3px 3px 2px var(--toolbar-shade-clr);
   border-radius: 14px;
-  width: 80%;
+  width: 90%;
   height: 100%;
   display: flex;
   flex-flow: column;
   justify-content: start;
   align-items: stretch;
   text-align: start;
-  padding: 3rem;
+  padding: 3rem 0rem;
+  margin: 1rem;
 }
 
-.block-1 {
+/* .block-1 {
   display: flex;
   flex: 1 1 100%;
   width: 100%;
@@ -124,11 +125,93 @@ body {
   flex: 1 1 100%;
   width: 100%;
   height: 50%;
-}
+} */
 
-.row1{
+.row1 {
   display: flex;
   flex-flow: row;
   justify-content: flex-start;
   align-items: stretch;
+}
+
+.personal-image {
+  width: 40%;
+  height: 70%;
+
+}
+
+.personal-info {
+  width: 50%;
+  height: 100%;
+  /* background-color:#78909c; */
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  text-align: justify;
+  font-size: 24px;
+  font-family: ui-sans-serif;
+  text-shadow: 3px 2px 3px var(--text-shadow);
+  margin: 1rem;
+  color: var(--text-color);
+}
+
+.sys-img {
+  width: auto;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.workhistory-page {
+  background-color: var(--toolbar-clr);
+  box-shadow: 3px 3px 3px 2px var(--toolbar-shade-clr);
+  border-radius: 14px;
+  width: 90%;
+  height: 70%;
+  display: flex;
+  flex-flow: column;
+  justify-content: start;
+  align-items: stretch;
+  text-align: start;
+  padding: 1rem 0rem;
+  margin: 1rem;
+}
+
+
+.workhis-title {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+
+.workhis-container {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.box {
+  height: auto;
+  width: auto;
+  background-color: var(--toolbar-clr);
+  box-shadow: 2px 2px 1px 1px var(--toolbar-shade-clr);
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+  /* margin: 1%; */
+  border-radius: 14px;
+  text-align: center;
+  text-overflow: clip;
+
 }
