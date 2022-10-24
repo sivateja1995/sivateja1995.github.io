@@ -70,8 +70,8 @@ body {
   background-color: var(--toolbar-clr);
   box-shadow: 3px 3px 3px 2px var(--toolbar-shade-clr);
   border-radius: 14px;
-  width: 50%;
-  height: 20%;
+  width: 65%;
+  height: 30%;
   display: flex;
   flex-flow: column;
   justify-content: center;
@@ -96,6 +96,7 @@ body {
   text-shadow: 3px 2px 3px var(--text-shadow);
   margin: 1rem;
   color: var(--text-color);
+  font-size: xx-large;
 }
 
 .personal-page {
@@ -113,20 +114,13 @@ body {
   margin: 1rem;
 }
 
-
 .contact-page {
-  background-color: var(--toolbar-clr);
-  box-shadow: 3px 3px 3px 2px var(--toolbar-shade-clr);
-  border-radius: 14px;
   width: 90%;
-  height: 100%;
   display: flex;
-  flex-flow: column;
-  justify-content: space-between;
+  flex-flow: row;
+  justify-content: space-evenly;
   align-items: center;
   text-align: start;
-  padding: 3rem 0rem;
-  margin: 1rem;
 }
 
 /* .block-1 {
@@ -153,7 +147,6 @@ body {
 .personal-image {
   width: 40%;
   height: 70%;
-
 }
 
 .personal-info {
@@ -196,7 +189,6 @@ a {
   margin: 1rem;
 }
 
-
 .workhis-title {
   display: flex;
   flex-flow: row;
@@ -206,14 +198,12 @@ a {
   height: 100%;
 }
 
-
 .workhis-container {
   display: flex;
   flex-flow: row;
   justify-content: space-around;
   align-items: center;
 }
-
 
 .box {
   height: auto;
@@ -229,16 +219,15 @@ a {
   border-radius: 14px;
   text-align: center;
   text-overflow: clip;
-
 }
 
-.box-contact{
+.box-contact {
   height: 30%;
   width: 30%;
   background-color: var(--toolbar-clr);
   box-shadow: 2px 2px 1px 1px var(--toolbar-shade-clr);
   display: flex;
-  flex-flow: column;
+  flex-flow: row;
   justify-content: center;
   align-items: center;
   padding: 1%;
@@ -246,9 +235,22 @@ a {
   border-radius: 14px;
   text-align: center;
   text-overflow: clip;
-
 }
 
-ul{
+ul {
   text-decoration: none;
+}
+
+.container-contact {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 0rem;
+  margin: 3rem;
+  background-color: var(--toolbar-clr);
+  box-shadow: 3px 3px 3px 2px var(--toolbar-shade-clr);
+  border-radius: 14px;
 }
