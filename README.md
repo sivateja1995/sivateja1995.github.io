@@ -1,1 +1,1 @@
-this is my current profile will be updating soon
+updated on 20-OCT-2025
